@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Project Details
+##  Project Details
 
 | Field | Information |
 |------|------------|
@@ -17,15 +17,15 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 This repository contains five Bash scripts created as part of an open-source audit project.
 
-MySQL was selected due to its importance in the evolution of web technologies. Since its introduction in the 1990s, it has been widely used as a reliable and fast relational database system. It became a key component of the LAMP stack and continues to be relevant in modern applications. MySQL follows a dual licensing approach, offering both open-source and commercial usage options.
+MySQL was selected because it serves as a fundamental database system for web technology development. The system has functioned as a dependable and high-speed relational database system since its 1990s debut. It became a key component of the LAMP stack and continues to be relevant in modern applications. MySQL follows a dual licensing approach which allows users to choose between open-source and commercial usage options.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 oss-audit-24BCY10130/
 ├── README.md
@@ -40,22 +40,26 @@ oss-audit-24BCY10130/
 ## ⚙️ Script Descriptions
 
 ### 🔹 Script 1: System Identity Report
-Displays system-related information such as OS version, kernel details, logged-in user, uptime, and current date/time.
+
+The system identity report displays system information which includes OS version and kernel details and the currently logged-in user and system uptime and current date and time. 
 
 ---
 
 ### 🔹 Script 2: Package Inspector
-Checks if a package (e.g., MySQL) is installed and retrieves version and license details using system package managers.
+
+The package inspector verifies the installation status of a package which includes MySQL and it retrieves both version information and license details through system package management tools.
 
 ---
 
 ### 🔹 Script 3: Disk and Permission Auditor
-Analyzes system directories and reports permissions, ownership, and disk usage.
+
+The system directories undergo analysis which results in the generation of reports that display their permissions and ownership details along with the measurements of disk space they consume.
 
 ---
 
 ### 🔹 Script 4: Log Analyzer
-Reads log files, counts keyword occurrences (default: "error"), and shows recent matching entries.
+
+The log analyzer tool processes log files to determine the frequency of keywords which appears with an initial setting of "error" and it presents the latest entries that meet the search criteria.
 
 ---
 
@@ -64,7 +68,7 @@ Collects user input and generates a simple open-source philosophy statement save
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 - Linux OS
@@ -87,7 +91,7 @@ chmod +x *.sh
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 - bash
 - uname, whoami, date
@@ -97,7 +101,7 @@ chmod +x *.sh
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Divyansh Maurya  
 VIT Bhopal University  
