@@ -28,6 +28,7 @@ MySQL was selected because it serves as a fundamental database system for web te
 ##  Project Structure
 
 oss-audit-24BCY10130/
+
 ├── README.md
 ├── script1_system_identity.sh
 ├── script2_package_inspector.sh
