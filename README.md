@@ -84,9 +84,13 @@ chmod +x *.sh
 ### Run Scripts
 
 ./script1_system_identity.sh
+
 ./script2_package_inspector.sh mysql-server
+
 ./script3_disk_auditor.sh
+
 ./script4_log_analyzer.sh /path/to/logfile error
+
 ./script5_manifesto_generator.sh
 
 ---
